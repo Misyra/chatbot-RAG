@@ -1,6 +1,7 @@
 # 陶瓷知识问答机器人
 
 为了计算机设计大赛做的程序，防止纠纷把知识库文档删掉了，改一下prompt当成其他的RAG系统也不是不行
+readme是AI写的，可能有错误，faiss用的是cpu版本，用gpu就报错呀
 
 ## 目录结构
 
@@ -52,7 +53,7 @@ ceramic-rag-chatbot/
 1. 克隆项目仓库
 
 ```bash
-git clone <仓库地址>
+git clone [<仓库地址>](https://github.com/Misyra/chatbot-RAG.git)
 ```
 
 2. 创建并激活虚拟环境
