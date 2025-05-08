@@ -1,8 +1,6 @@
 # 陶瓷知识问答机器人
 
-## 项目概述
-
-![架构图](docs/images/architecture.png)
+为了计算机设计大赛做的程序，防止纠纷把知识库文档删掉了，改一下prompt当成其他的RAG系统也不是不行
 
 ## 目录结构
 
@@ -102,22 +100,7 @@ A: 确保知识库文档质量，定期更新索引
 Q: 支持哪些语言？
 A: 目前主要支持中文问答，未来计划增加多语言支持
 
-1. 生产环境推荐使用 Docker 部署
 
-```dockerfile
-FROM python:3.10
-WORKDIR /app
-COPY . .
-RUN pip install -r requirements.txt
-CMD ["streamlit", "run", "app.py"]
-```
-
-2. 构建并运行容器
-
-```bash
-docker build -t ceramic-chatbot .
-docker run -p 8501:8501 ceramic-chatbot
-```
 
 ## 功能说明
 
